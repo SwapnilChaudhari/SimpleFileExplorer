@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/action_settings"-->
+          <!--android:title="@string/action_settings"-->
+          <!--android:orderInCategory="100"-->
+          <!--app:showAsAction="never"/>-->
+    <item android:id="@+id/copy_items"
+          android:title="@string/copy_items"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/paste_items"
+          android:title="@string/paste_items"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/cut_items"
+          android:title="@string/move_items"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/delete_items"
+          android:title="@string/delete_items"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/create_dir"
+          android:title="@string/create_new"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <!--<item android:id="@+id/select_all"-->
+          <!--android:title="@string/select_all"-->
+          <!--android:orderInCategory="100"-->
+          <!--app:showAsAction="never"/>-->
+
+    <item android:id="@+id/rename"
+          android:title="@string/rename"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+
+</menu>
