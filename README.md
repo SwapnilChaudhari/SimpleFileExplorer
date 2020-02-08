@@ -20,7 +20,7 @@ __Functionality:__
 __Implementation concepts:__
 
 *__1.Collections :__*
-</br>One mutable list acts like a stack to retain directories from root directory to current open directory. While navigating through folders,
+</br>One mutable list acts like a queue to retain directories from root directory to current open directory. While navigating through folders,
 the last element of the list is always the current open directory.
 
 One mutableSet of Files that contains absolute paths of all multiple selected files for copy, pste, move and delete operations.
